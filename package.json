@@ -1,6 +1,6 @@
 {
   "name": "gulp-lmt-tasks",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Common gulp tasks used by lmt projects",
   "main": "index.js",
   "scripts": {
