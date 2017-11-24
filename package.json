@@ -21,7 +21,8 @@
   "homepage": "https://github.com/lm-tools/gulp-lmt-tasks#readme",
   "dependencies": {
     "html-link-crawler": "0.0.1",
-    "lint-target-blank": "0.0.2"
+    "lint-target-blank": "0.0.2",
+    "gulp-util": "^3.0.7"
   },
   "peerDependencies": {
     "gulp": ">=3.0.0"
