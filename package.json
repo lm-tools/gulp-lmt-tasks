@@ -1,0 +1,29 @@
+{
+  "name": "gulp-lmt-tasks",
+  "version": "0.0.1",
+  "description": "Common gulp tasks used by lmt projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lm-tools/gulp-lmt-tasks.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "chilliwilly77",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lm-tools/gulp-lmt-tasks/issues"
+  },
+  "homepage": "https://github.com/lm-tools/gulp-lmt-tasks#readme",
+  "dependencies": {
+    "html-link-crawler": "0.0.1",
+    "lint-target-blank": "0.0.2"
+  },
+  "peerDependencies": {
+    "gulp": ">3"
+  }
+}
