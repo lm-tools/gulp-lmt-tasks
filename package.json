@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/lm-tools/gulp-lmt-tasks#readme",
   "dependencies": {
-    "html-link-crawler": ">0.1.0",
-    "lint-target-blank": ">0.1.0",
+    "html-link-crawler": "~0.1.0",
+    "lint-target-blank": "~0.1.0",
     "gulp-util": "^3.0.7"
   },
   "peerDependencies": {
