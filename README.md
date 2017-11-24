@@ -8,7 +8,9 @@ Contains common tasks used by lmt projects.
 
 ```ecmascript 6
     const { lintHtml } = require('gulp-lmt-tasks');
-    lintHtml('lint-html', ['fromSearch']);
+    gulp.task('lint-all-html', () =>
+      lintHtml({server: require('./bin/www'), ignoreQsParams: ['fromSearch']})
+    );
 ```
 
 ## Development
