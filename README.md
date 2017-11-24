@@ -7,8 +7,8 @@ Contains common tasks used by lmt projects.
 ### lintHtml
 
 ```ecmascript 6
-const { lintHtml } = require('gulp-lmt-tasks');
-lintHtml('lint-html', ['fromSearch']);
+    const { lintHtml } = require('gulp-lmt-tasks');
+    lintHtml('lint-html', ['fromSearch']);
 ```
 
 ## Development

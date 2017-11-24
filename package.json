@@ -24,6 +24,6 @@
     "lint-target-blank": "0.0.2"
   },
   "peerDependencies": {
-    "gulp": ">3"
+    "gulp": ">=3.0.0"
   }
 }
