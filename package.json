@@ -1,6 +1,6 @@
 {
   "name": "lmt-utils",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Common utilities for lmt node projects",
   "main": "index.js",
   "scripts": {
