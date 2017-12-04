@@ -7,10 +7,19 @@ Contains common tasks used by lmt projects.
 ### lintHtml
 
 ```ecmascript 6
-    const { lintHtml } = require('gulp-lmt-tasks');
-    gulp.task('lint-all-html', () =>
-      lintHtml({server: require('./bin/www'), ignoreQsParams: ['fromSearch']})
-    );
+    gulp.task('lint-all-html', () => {
+        const port = 3001;
+        const serverStartPromise = new Promise(accept =>
+            http.createServer(require('./app/app'))
+              .listen(port, () => accept())
+        );
+        return serverStartPromise.then(() => lintHtml({
+            url: `http://localhost:${port}`,
+            ignoreQsParams: ['fromSearch'],
+        }))
+        .then(() => process.exit(0))
+        .catch(e => gutil.log(gutil.colors.red(e)) && process.exit(1));
+    });
 ```
 
 ## Development
