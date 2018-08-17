@@ -4,6 +4,8 @@ Contains common tasks used by lmt projects.
 
 ## Usage
 
+Ensure `node_modules/.bin` is on your path
+
 ### lintHtml
 
 ```ecmascript 6

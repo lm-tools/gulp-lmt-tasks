@@ -21,6 +21,7 @@
   "homepage": "https://github.com/lm-tools/lmt-utils#readme",
   "dependencies": {
     "html-link-crawler": "~0.1.0",
-    "lint-target-blank": "~0.1.0"
+    "lint-target-blank": "~0.1.0",
+    "npm-git-secrets": "^1.0.1"
   }
 }
