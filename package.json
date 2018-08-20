@@ -23,5 +23,8 @@
     "html-link-crawler": "~0.1.0",
     "lint-target-blank": "~0.1.0",
     "npm-git-secrets": "^1.0.1"
+  },
+  "devDependencies": {
+    "npm-git-secrets": "^1.0.4"
   }
 }
