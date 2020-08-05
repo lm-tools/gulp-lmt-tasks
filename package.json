@@ -4,7 +4,9 @@
   "description": "Common utilities for lmt node projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -22,9 +24,11 @@
   "dependencies": {
     "html-link-crawler": "~0.1.0",
     "lint-target-blank": "~0.1.0",
-    "npm-git-secrets": "^1.0.1"
+    "npm-git-secrets": "^1.0.1",
+    "snyk": "^1.369.3"
   },
   "devDependencies": {
     "npm-git-secrets": "^1.0.4"
-  }
+  },
+  "snyk": true
 }
