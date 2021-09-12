@@ -25,7 +25,7 @@
     "html-link-crawler": "~0.1.0",
     "lint-target-blank": "~0.1.0",
     "npm-git-secrets": "^1.0.1",
-    "snyk": "^1.369.3"
+    "snyk": "^1.685.0"
   },
   "devDependencies": {
     "npm-git-secrets": "^1.0.4"
